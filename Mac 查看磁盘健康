@@ -1,0 +1,4 @@
+ diskutil list
+
+diskutil verifyDisk /dev/disk0
+
