@@ -1,0 +1,4 @@
+Mac 在终端更改电脑名
+
+sudo scutil --set ComputerName Macbook-Pro
+
