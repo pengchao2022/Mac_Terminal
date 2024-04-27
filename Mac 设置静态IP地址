@@ -1,0 +1,13 @@
+networksetup -listallnetworkservices
+
+networksetup -setmanual Wi-Fi 192.168.1.2 255.255.255.0 192.168.1.1
+
+
+设置为DHCP:
+
+networksetup -setdhcp SERVICE
+
+设置为DHCP 使用指定IP地址：
+
+networksetup -setmanualwithdhcprouter SERVICE IP
+
